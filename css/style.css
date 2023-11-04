@@ -49,7 +49,8 @@ h1 {
     justify-content: center;
 }
 
-h3 {
+
+#task-heading1 {
     text-align: center;
     color: purple;
     font-size: 20px;
@@ -57,9 +58,42 @@ h3 {
     padding-top: 15px;
 }
 
-.task-div {
+#task-heading2 {
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.task-div1 {
     padding-left: 50px;
     padding-right: 50px;
     background-color: white;
-    border-bottom: 1px solid purple;
+}
+
+.task-div2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.inputList {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+#incomplete-container {
+    color: black;
+    font-size: 15px;
+}
+
+.input-checkbox {
+    margin-right: 10px;
+
+}
+
+.label-text {
+    font-size: 17px;
+    font-weight: bold;
 }
